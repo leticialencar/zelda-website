@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Monsieur+La+Doulaise&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* page */
-
 @font-face {
     font-family: 'Minecraft';
     src: url('../fonts/Minecraft.ttf') format('truetype'); 
@@ -76,8 +74,6 @@ a {
     color: #A4C639;
 }
 
-/* intro */
-
 .section--intro {
     background-image: url('../img/fundo.png');
     background-size: cover;
@@ -129,8 +125,6 @@ a {
     display: inline-block; 
     margin: 20px; 
 }
-
-/* about */
 
 .section--about {
     position: relative;
@@ -220,9 +214,6 @@ a {
         transform: translateY(0); 
     }
 }
-
-
-/* gallery */
 
 .gallery__img {
     display: none;
@@ -327,8 +318,6 @@ a {
     flex-wrap: wrap; 
 }
 
-/* services */
-
 .section--services {
     color: #ffffff;
     padding: 2rem;
@@ -380,8 +369,6 @@ a {
     margin: 0;
     line-height: 1.5;
 }
-
-/* news */
 
 .news__img {
     display: none;
@@ -465,8 +452,6 @@ a {
     margin-bottom: 8px; 
 }
 
-/* contact center */
-
 .section--contact {
     background-image: url('../img/contact-center.png'); 
     background-size: cover;
@@ -547,8 +532,6 @@ a {
     z-index: 1;
 }
 
-/* rodapé */
-
 .footer {
     background-color: #2B5834; 
     padding: 20px;
@@ -609,22 +592,16 @@ a {
     background-image: url('data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2716%27 height=%2716%27 fill=%27rgba(255,%20255,%20255,%200.31)%27 viewBox=%270%200%2016%2016%27%3E%3Cpath d=%27M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.297-.048c.852-.04 1.433-.174 1.942-.372.526-.205.972-.478 1.417-.923.445-.444.719-.89.923-1.416.198-.51.333-1.09.372-1.942.038-.853.048-1.125.048-3.297 0-2.172-.01-2.444-.048-3.297-.04-.852-.174-1.433-.372-1.942a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.09-.333-1.942-.372C10.444.01 10.172 0 8 0Zm0 1.46c2.134 0 2.39.008 3.233.046.78.035 1.203.166 1.485.276.374.145.641.319.921.6.281.28.455.547.6.921.11.282.241.705.276 1.485.038.842.046 1.1.046 3.233 0 2.134-.008 2.39-.046 3.233-.035.78-.166 1.203-.276 1.485a2.42 2.42 0 0 1-.6.921c-.28.281-.547.455-.921.6-.282.11-.705.241-1.485.276-.842.038-1.1.046-3.233.046-2.134 0-2.39-.008-3.233-.046-.78-.035-1.203-.166-1.485-.276a2.42 2.42 0 0 1-.921-.6 2.42 2.42 0 0 1-.6-.921c-.11-.282-.241-.705-.276-1.485C1.467 10.39 1.46 10.134 1.46 8c0-2.134.008-2.39.046-3.233.035-.78.166-1.203.276-1.485a2.42 2.42 0 0 1 .6-.921 2.42 2.42 0 0 1 .921-.6c.282-.11.705-.241 1.485-.276C5.61 1.467 5.866 1.46 8 1.46Zm0 2.082a4.46 4.46 0 1 0 0 8.92 4.46 4.46 0 0 0 0-8.92Zm0 1.46a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.406-.917a1.02 1.02 0 1 1-2.042 0 1.02 1.02 0 0 1 2.042 0Z%27/%3E%3C/svg%3E');
 }
 
-/* responsividade */
-
-/* 2xl */
 @media (max-width: 1536px) {
     #intro.section--intro {
         height: 80vh;
     }
 }
 
-/* xl */
 @media (max-width: 1280px) {
     #intro.section--intro {
         height: 60vh;
     }
-
-    /* nav */
 
     .header__menu {
         display: none;
@@ -653,13 +630,11 @@ a {
     }
 }
 
-/* lg */
+
 @media (max-width: 1024px) {
     #intro.section--intro {
         height: 50vh; 
     }
-
-    /* nav */
 
     .header__menu {
         display: none;
@@ -686,8 +661,6 @@ a {
     .header__nav.open .header__menu {
         display: block;
     }
-
-    /* about */
 
     #about{
         margin-top: 120px;
@@ -733,11 +706,7 @@ a {
 
 }
 
-/* md */
 @media (max-width: 768px) {
-
-    /* nav */
-
     .header__menu {
         display: none;
     }
@@ -764,8 +733,6 @@ a {
         display: block;
     }
 
-    /*intro*/
-
     #intro.section--intro {
         height: 20vh; 
     }
@@ -774,8 +741,6 @@ a {
         position: relative;
         padding-top: 25%;
     }
-
-    /* about */
 
     #about{
         margin-top: 120px;
@@ -820,9 +785,6 @@ a {
         right: 20px; 
     }
 
-    
-    /* services */
-
     .services__list {
         grid-template-columns: 1fr; 
       }
@@ -857,8 +819,6 @@ a {
         margin: 60px auto; 
     }
 
-    /* contact center */
-
     #contact .section__title { 
         margin-right: 80px; 
         margin-top: 15px; 
@@ -885,8 +845,6 @@ a {
         padding: 8px 15px; 
     }
 
-    /* footer */
-
     .footer__text {
         font-size: 12px; 
     }
@@ -902,14 +860,12 @@ a {
     }
 }
 
-/* sm */
 @media (max-width: 640px) {
     #intro.section--intro {
         height: 20vh; 
     }
 }
 
-/* xs */
 @media (max-width: 475px) { 
     #intro.section--intro {
         height: 20vh;
